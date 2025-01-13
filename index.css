@@ -1,0 +1,28 @@
+form {
+  padding: 1rem;
+}
+
+main {
+  display: flex;
+}
+
+.bank {
+  border: 3px solid black;
+  width: 200px;
+  flex-shrink: 0;
+  height: 500px;
+  padding: 1rem;
+  position: relative;
+}
+
+.river {
+  background: rgb(186, 211, 244);
+}
+
+.sheep {
+  position: absolute;
+  transition: left 0.05s linear, top 0.05s linear;
+  cursor: pointer;
+  pointer-events: auto;
+  user-select: none;
+}
