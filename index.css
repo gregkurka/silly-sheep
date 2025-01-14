@@ -24,5 +24,7 @@ main {
   transition: left 0.05s linear, top 0.05s linear;
   cursor: pointer;
   pointer-events: auto;
+  width: 60px;
+  height: 60px;
   user-select: none;
 }
