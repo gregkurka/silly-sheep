@@ -22,8 +22,6 @@ main {
 .sheep {
   position: absolute;
   transition: left 0.05s linear, top 0.05s linear;
-  width: 30px;
-  height: 20px;
   cursor: pointer;
   pointer-events: auto;
   user-select: none;
